@@ -11,7 +11,7 @@ function HomePage() {
             <p>Theme: {theme}</p>
             <button onClick={() => {
                 setTheme("dark")
-            }}>change theme</button>
+            }}>change theme color</button>
             <Link to="/game">Game Page</Link>
         </div>
     )
