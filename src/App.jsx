@@ -10,7 +10,7 @@ import { createContext, useState } from "react";
 export const AppContext = createContext()
 
 function App() {
-  const [theme, setTheme] = useState("dark")
+  const [theme, setTheme] = useState("light")
 
   return (
     <AppContext.Provider value={{
